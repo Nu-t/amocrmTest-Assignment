@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32B8D2DCDD8D4A8F86A20DD5 /* libPods-amocrmTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C43EB9FF4BB04B2DF03C7C /* libPods-amocrmTest.a */; };
 		9510F5311C85A2D10090E67E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9510F5301C85A2D10090E67E /* main.m */; };
 		9510F5341C85A2D10090E67E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9510F5331C85A2D10090E67E /* AppDelegate.m */; };
-		9510F5371C85A2D10090E67E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9510F5361C85A2D10090E67E /* ViewController.m */; };
 		9510F53A1C85A2D10090E67E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9510F5381C85A2D10090E67E /* Main.storyboard */; };
 		9510F53C1C85A2D10090E67E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9510F53B1C85A2D10090E67E /* Assets.xcassets */; };
 		9510F53F1C85A2D10090E67E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9510F53D1C85A2D10090E67E /* LaunchScreen.storyboard */; };
+		9510F5481C85A3210090E67E /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9510F5471C85A3210090E67E /* MainTableViewController.m */; };
+		951B17FE1C8631D7009D9F80 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 951B17FD1C8631D7009D9F80 /* CustomTableViewCell.m */; };
+		952AA4D71C85B8A900883BCF /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = 952AA4D61C85B8A900883BCF /* Response.m */; };
+		952AA4DA1C85B8BB00883BCF /* Leads.m in Sources */ = {isa = PBXBuildFile; fileRef = 952AA4D91C85B8BB00883BCF /* Leads.m */; };
+		952AA4DD1C85BC5600883BCF /* Json.m in Sources */ = {isa = PBXBuildFile; fileRef = 952AA4DC1C85BC5600883BCF /* Json.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +25,23 @@
 		9510F5301C85A2D10090E67E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9510F5321C85A2D10090E67E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9510F5331C85A2D10090E67E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9510F5351C85A2D10090E67E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9510F5361C85A2D10090E67E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9510F5391C85A2D10090E67E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9510F53B1C85A2D10090E67E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9510F53E1C85A2D10090E67E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9510F5401C85A2D10090E67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9510F5461C85A3210090E67E /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		9510F5471C85A3210090E67E /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		951B17FC1C8631D7009D9F80 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		951B17FD1C8631D7009D9F80 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		952AA4D51C85B8A900883BCF /* Response.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Response.h; sourceTree = "<group>"; };
+		952AA4D61C85B8A900883BCF /* Response.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Response.m; sourceTree = "<group>"; };
+		952AA4D81C85B8BB00883BCF /* Leads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leads.h; sourceTree = "<group>"; };
+		952AA4D91C85B8BB00883BCF /* Leads.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leads.m; sourceTree = "<group>"; };
+		952AA4DB1C85BC5600883BCF /* Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Json.h; sourceTree = "<group>"; };
+		952AA4DC1C85BC5600883BCF /* Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Json.m; sourceTree = "<group>"; };
+		B5FA483D5640FF676D11CE15 /* Pods-amocrmTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amocrmTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-amocrmTest/Pods-amocrmTest.debug.xcconfig"; sourceTree = "<group>"; };
+		C5C43EB9FF4BB04B2DF03C7C /* libPods-amocrmTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-amocrmTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9114E2F0EC1BCF9D924FC81 /* Pods-amocrmTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amocrmTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-amocrmTest/Pods-amocrmTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B8D2DCDD8D4A8F86A20DD5 /* libPods-amocrmTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		528CCF914BC0BB3B333BFE7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5C43EB9FF4BB04B2DF03C7C /* libPods-amocrmTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9510F5231C85A2D10090E67E = {
 			isa = PBXGroup;
 			children = (
 				9510F52E1C85A2D10090E67E /* amocrmTest */,
 				9510F52D1C85A2D10090E67E /* Products */,
+				D3CF2F96FB691E12191D5EE7 /* Pods */,
+				528CCF914BC0BB3B333BFE7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +85,13 @@
 		9510F52E1C85A2D10090E67E /* amocrmTest */ = {
 			isa = PBXGroup;
 			children = (
+				9569CEE91C85AEE3003804BF /* Models */,
 				9510F5321C85A2D10090E67E /* AppDelegate.h */,
 				9510F5331C85A2D10090E67E /* AppDelegate.m */,
-				9510F5351C85A2D10090E67E /* ViewController.h */,
-				9510F5361C85A2D10090E67E /* ViewController.m */,
+				9510F5461C85A3210090E67E /* MainTableViewController.h */,
+				9510F5471C85A3210090E67E /* MainTableViewController.m */,
+				951B17FC1C8631D7009D9F80 /* CustomTableViewCell.h */,
+				951B17FD1C8631D7009D9F80 /* CustomTableViewCell.m */,
 				9510F5381C85A2D10090E67E /* Main.storyboard */,
 				9510F53B1C85A2D10090E67E /* Assets.xcassets */,
 				9510F53D1C85A2D10090E67E /* LaunchScreen.storyboard */,
@@ -79,6 +109,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9569CEE91C85AEE3003804BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				952AA4DB1C85BC5600883BCF /* Json.h */,
+				952AA4DC1C85BC5600883BCF /* Json.m */,
+				952AA4D51C85B8A900883BCF /* Response.h */,
+				952AA4D61C85B8A900883BCF /* Response.m */,
+				952AA4D81C85B8BB00883BCF /* Leads.h */,
+				952AA4D91C85B8BB00883BCF /* Leads.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D3CF2F96FB691E12191D5EE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5FA483D5640FF676D11CE15 /* Pods-amocrmTest.debug.xcconfig */,
+				D9114E2F0EC1BCF9D924FC81 /* Pods-amocrmTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9510F5431C85A2D10090E67E /* Build configuration list for PBXNativeTarget "amocrmTest" */;
 			buildPhases = (
+				3AE1DC7E1C0D1819198FE548 /* Check Pods Manifest.lock */,
 				9510F5281C85A2D10090E67E /* Sources */,
 				9510F5291C85A2D10090E67E /* Frameworks */,
 				9510F52A1C85A2D10090E67E /* Resources */,
+				E4A0EAA497E7120752073FE5 /* Embed Pods Frameworks */,
+				BD095078F98BCC12FB22C3CE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,14 +200,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3AE1DC7E1C0D1819198FE548 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD095078F98BCC12FB22C3CE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-amocrmTest/Pods-amocrmTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4A0EAA497E7120752073FE5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-amocrmTest/Pods-amocrmTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9510F5281C85A2D10090E67E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9510F5371C85A2D10090E67E /* ViewController.m in Sources */,
+				952AA4D71C85B8A900883BCF /* Response.m in Sources */,
+				951B17FE1C8631D7009D9F80 /* CustomTableViewCell.m in Sources */,
+				952AA4DA1C85B8BB00883BCF /* Leads.m in Sources */,
 				9510F5341C85A2D10090E67E /* AppDelegate.m in Sources */,
 				9510F5311C85A2D10090E67E /* main.m in Sources */,
+				9510F5481C85A3210090E67E /* MainTableViewController.m in Sources */,
+				952AA4DD1C85BC5600883BCF /* Json.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +367,7 @@
 		};
 		9510F5441C85A2D10090E67E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5FA483D5640FF676D11CE15 /* Pods-amocrmTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = amocrmTest/Info.plist;
@@ -271,6 +379,7 @@
 		};
 		9510F5451C85A2D10090E67E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9114E2F0EC1BCF9D924FC81 /* Pods-amocrmTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = amocrmTest/Info.plist;
@@ -299,6 +408,7 @@
 				9510F5451C85A2D10090E67E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
